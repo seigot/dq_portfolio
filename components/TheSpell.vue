@@ -65,7 +65,7 @@ export default {
         },
         {
           id: 2,
-          name: "ザキ",
+          name: "ザラキ",
           details: []
         }
       ]

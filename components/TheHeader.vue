@@ -42,11 +42,11 @@ export default {
         {
           name: "せいかぶつ",
           link: "pageArtifacts"
-        },
-        {
-          name: "ぶろぐ",
-          link: "pageBlog"
         }
+        // {
+        //   name: "ぶろぐ",
+        //   link: "pageBlog"
+        // }
         //        {
         //          name: 'しゃしん',
         //          link: 'pagePhoto'

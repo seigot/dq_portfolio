@@ -3,7 +3,7 @@
     <div class="logo">
       <img
         class="logo-text center"
-        src="https://raw.githubusercontent.com/iwathi/dq_portfolio/master/assets/img/Portfolio.png"
+        src="~/assets/img/Portfolio.png"
       >
       <img
         class="logo-img-vue vue-center"
@@ -24,7 +24,7 @@
         </li>
       </ul>
       <div class="company center">
-        <h3>@1989 iwathi</h3>
+        <h3>@1976 watanabe</h3>
       </div>
     </div>
   </div>

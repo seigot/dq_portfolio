@@ -22,7 +22,8 @@
             v-for="detail in toolsList[toolsChoice].details"
             :key="toolsList[toolsChoice].name+detail.name"
           >
-            <a :href="detail.link" target="_blank">{{detail.name}}</a>
+            <a :href="detail.link" target="_blank" v-if="detail.link!=='#'">{{detail.name}}</a>
+            <span v-else>{{detail.name}}</span>
           </li>
         </ul>
       </div>
@@ -42,11 +43,15 @@ export default {
           name: "武器",
           details: [
             {
-              name: "Vim",
+              name: "VS Code",
               link: "#"
             },
             {
-              name: "Git",
+              name: "Amazon Web Services",
+              link: "#"
+            },
+            {
+              name: "Git/GitLab/GitHub",
               link: "#"
             },
             {
@@ -54,96 +59,73 @@ export default {
               link: "#"
             },
             {
-              name: "Slack",
-              link: "#"
-            },
-            {
-              name: "PhotoShop",
-              link: "#"
-            },
-            {
-              name: "Fusion 360",
-              link: "#"
-            },
-            {
-              name: "GitHub",
-              link: "https://github.com/iwathi"
-            },
-            {
-              name: "GitLab",
-              link: "#"
-            },
-            {
               name: "Netlify",
               link: "#"
             },
             {
-              name: "Google Apps Script",
+              name: "Terraform",
+              link: "#"
+            },
+            {
+              name: "GitKraken",
+              link: "#"
+            },
+            {
+              name: "Adobe XD",
               link: "#"
             }
           ]
         },
         {
-          name: "つくえのうえ",
+          name: "しごとべや",
           details: [
             {
-              name: "iMac 4K, 21.5",
+              name: "MacBook Pro 13inch",
               link: "#"
             },
             {
-              name: "Let'snote CF-NX4",
+              name: "LG 27インチ/4K モニタ",
+              link: "https://www.amazon.co.jp/gp/product/B07NH8S9JL"
+            },
+            {
+              name: "iPhone 11 pro",
               link: "#"
             },
             {
-              name: "iPhone 8",
+              name: "iPad Pro 11inch",
               link: "#"
             },
             {
-              name: "Anet A8(3DPrinter)",
-              link: "#"
-            },
-            {
-              name: "Arduino",
-              link: "#"
+              name: "NAS Synology DS218+",
+              link: "https://www.amazon.co.jp/gp/product/B075N1BYWX"
             },
             {
               name: "Raspberry Pi",
+              link:
+                "https://www.amazon.co.jp/RASPBERRY-PI-TSI-PI018-Clear-Raspberry-Pi3-Model/dp/B01D1FR29M"
+            },
+            {
+              name: "Nature Remo",
+              link: "https://nature.global/jp/nature-remo-mini"
+            },
+            {
+              name: "Amazon Echo",
               link: "#"
             },
             {
-              name: "Oculus Go",
+              name: "Google Home mini",
               link: "#"
             },
             {
-              name: "OSMO MOBILE 2",
+              name: "Switch Bot",
+              link: "https://www.switchbot.jp/bot"
+            },
+            {
+              name: "5歳児",
               link: "#"
             },
             {
-              name: "PIXPRO SP360 4K",
-              link: "#"
-            },
-            {
-              name: "Kindle",
-              link: "#"
-            },
-            {
-              name: "LUMIX GX7-MK2",
-              link: "#"
-            },
-            {
-              name: "ScanSnap iX100",
-              link: "#"
-            },
-            {
-              name: "TicWatch E",
-              link: "#"
-            },
-            {
-              name: "Withings WS-50",
-              link: "#"
-            },
-            {
-              name: "1歳児",
+              name: "2歳児",
               link: "#"
             }
           ]
@@ -156,12 +138,13 @@ export default {
               link: "https://github.com/iwathi/dq_portfolio"
             },
             {
-              name: "ダンボーカメラ",
-              link: "https://twitter.com/iwathi/status/916465245983408128"
+              name: "婚活握手会システム開発",
+              link: "https://emira-t.jp/special/10485/"
             },
             {
-              name: "タブレット壁掛け",
-              link: "https://www.thingiverse.com/thing:3090632"
+              name: "カイゼンスイッチ",
+              link:
+                "https://monoist.atmarkit.co.jp/mn/articles/2002/13/news051.html"
             },
             {
               name: "綿棒ケース(menbou)",
