@@ -10,7 +10,7 @@
             :key="spell.name+index"
           >
             <a class="spell-cursor" v-if="spellsChoice==index">▶</a>
-            <a v-if="spell.id==1" onclick="lilemito()">{{spell.name}}</a>
+            <a v-if="spell.id==1" onclick="history.back()">{{spell.name}}</a>
             <a v-else-if="spell.id==2" v-on:click="zaki()">{{spell.name}}</a>
             <a v-else-if="spell.id==3" v-on:click="parupunte()">{{spell.name}}</a>
             <a v-else>{{spell.name}}</a>

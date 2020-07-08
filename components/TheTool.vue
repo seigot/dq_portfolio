@@ -36,11 +36,11 @@ export default {
   components: {},
   data: function() {
     return {
-      toolsContent: "どうぐ",
+      toolsContent: "ぷろふぃーる",
       toolsChoice: 0,
       toolsList: [
         {
-          name: "武器",
+          name: "ぶき",
           details: [
             {
               name: "VS Code",
@@ -59,15 +59,15 @@ export default {
               link: "#"
             },
             {
-              name: "Netlify",
-              link: "#"
-            },
-            {
               name: "Terraform",
               link: "#"
             },
             {
               name: "GitKraken",
+              link: "#"
+            },
+            {
+              name: "Netlify",
               link: "#"
             },
             {
@@ -131,15 +131,20 @@ export default {
           ]
         },
         {
-          name: "せいかぶつ",
+          name: "じれい",
           details: [
             {
-              name: "このポートフォリオのソース",
+              name: "このアプリのソース",
               link: "https://github.com/OsaWatanabe/dq_portfolio"
             },
             {
               name: "婚活握手会システム開発",
               link: "https://emira-t.jp/special/10485/"
+            },
+            {
+              name: "WonderJack",
+              link:
+                "https://pc.watch.impress.co.jp/docs/column/gyokai/1132020.html"
             },
             {
               name: "カイゼンスイッチ",
@@ -203,9 +208,9 @@ a:visited {
 .tools-menu::before {
   background-color: #000;
   color: #fff;
-  content: "どうぐ";
+  content: "ぷろふぃーる";
   position: relative;
-  left: 37px;
+  left: 23px;
   top: -23px;
 }
 

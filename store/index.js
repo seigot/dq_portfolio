@@ -32,7 +32,7 @@ const createStore = () => {
           display: true
         },
         {
-          name: 'どうぐ',
+          name: 'ぷろふぃーる',
           commandState: 4,
           display: false
         },

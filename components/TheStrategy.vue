@@ -14,34 +14,6 @@
         </ul>
       </div>
     </div>
-    <!--
-    <div class="strategy-equipment">
-      <div class="strategy-equipment-list">
-        <ul>
-          <li>E おきゅらすごう</li>
-          <li>E まっく</li>
-          <li>E あいほん</li>
-          <li>E ３でぃぷりんた</li>
-        </ul>
-      </div>
-    </div>
-    <div class="strategy-parameter">
-      <div class="strategy-parameter-list">
-        <ul>
-          <li>こうどう力：６０</li>
-          <li>はなす力：３６</li>
-          <li>ぶんしょう力：４０</li>
-          <li>ろんりてき：５５</li>
-          <li>うんのよさ：９０</li>
-          <li>かいぜん力：７２</li>
-          <li>ぶんせき力：４２</li>
-          <li>にんたい力：１１</li>
-          <li>けつだん力：３９</li>
-          <li>Ex：254040</li>
-        </ul>
-      </div>
-    </div>
-    -->
   </section>
 </template>
 

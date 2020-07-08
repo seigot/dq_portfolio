@@ -5,35 +5,37 @@
         <ul>
           <li>ぱぱえんじにあ</li>
           <li>せいべつ：おとこ</li>
-          <li>レベル：29</li>
-          <li>ＨＰ：24</li>
-          <li>ＭＰ：200</li>
+          <li>レベル：４４</li>
+          <li>ＨＰ：２３</li>
+          <li>ＭＰ：９９９</li>
         </ul>
       </div>
     </div>
     <div class="profile-equipment">
       <div class="profile-equipment-list">
         <ul>
-          <li>E おきゅらすごう</li>
-          <li>E まっく</li>
-          <li>E あいほん</li>
-          <li>E ３でぃぷりんた</li>
+          <li>E まっくぶっく</li>
+          <li>E airPods</li>
+          <li>E ぽろしゃつ</li>
+          <li>E じーぱん</li>
+          <li>E くさいすにーか</li>
         </ul>
       </div>
     </div>
     <div class="profile-parameter">
       <div class="profile-parameter-list">
         <ul>
-          <li>こうどう力：６０</li>
-          <li>はなす力：３６</li>
-          <li>ぶんしょう力：４０</li>
-          <li>ろんりてき：５５</li>
+          <li>こうどう力：２０</li>
+          <li>もうそう力：２５０</li>
           <li>うんのよさ：９０</li>
-          <li>かいぜん力：７２</li>
+          <li>ろんりてき：５５</li>
+          <li>えいご：７０</li>
           <li>ぶんせき力：４２</li>
-          <li>にんたい力：１１</li>
+          <li>がまんづよさ：３</li>
           <li>けつだん力：３９</li>
-          <li>Ex：254040</li>
+          <li>くらうど：２００</li>
+          <li>あじゃいる：１５０</li>
+          <li>Ex：２００００４</li>
         </ul>
       </div>
     </div>
@@ -71,7 +73,7 @@ export default {
 .profile-status::before {
   background-color: #000;
   color: #fff;
-  content: "いわてぃ";
+  content: "わたなへ";
   position: relative;
   left: 37px;
   top: -23px;
@@ -117,4 +119,3 @@ export default {
   text-align: right;
 }
 </style>
-
