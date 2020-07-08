@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     commandStateChange: function(commandState) {
-      console.log("command:" + commandState);
+      // console.log("command:" + commandState);
       if (commandState == 2) {
         this.$store.commit("setStrengthDisplay", true);
       } else if (commandState == 3) {

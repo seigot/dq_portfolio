@@ -108,12 +108,12 @@ export default {
       history.back();
     },
     parupunte: function() {
-      console.log("パルプンテ!");
+      // console.log("パルプンテ!");
       // this.$store.commit("setCommandState", 5);
       this.$store.commit("setCommentDisplay", true);
     },
     zaki: function() {
-      console.log("ザラキ!");
+      // console.log("ザラキ!");
       // this.$store.commit("setCommandState", 5);
       // this.$store.commit("setCommentDisplay", true);
       const lx = this.$store.state.lx;

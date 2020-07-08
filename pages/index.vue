@@ -95,7 +95,6 @@ li {
   width: 450px;
   text-align: center;
   position: relative;
-  z-index: 0;
   animation: textUp 5s forwards;
   z-index: 1;
 }
@@ -104,7 +103,7 @@ li {
   height: 200px;
   width: 200px;
   position: relative;
-  filter: grayscale(80%);
+  filter: grayscale(10%);
   z-index: 0;
   animation: imgDown 5s forwards;
 }
