@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">TherFooter</div>
+  <div class="footer">TheFooter</div>
 </template>
 
 <style>
@@ -72,4 +72,3 @@
   }
 }
 </style>
-

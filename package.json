@@ -1,8 +1,8 @@
 {
   "name": "dq_portfolio",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "iwathi <s1160030@gmail.com>",
+  "description": "Nuve.jsで作成したドラクエ風ポートフォリオ。オリジナルの作者は@iwathi(https://github.com/iwathi/dq_portfolio)です。",
+  "author": "watanabe",
   "private": true,
   "scripts": {
     "dev": "nuxt",

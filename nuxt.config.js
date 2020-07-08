@@ -5,11 +5,11 @@ module.exports = {
   */
   mode: 'spa',
   head: {
-    title: 'iwathi',
+    title: 'わたなへクエスト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'iwathiのドラクエ風ポートフォリオ' }
+      { hid: 'description', name: 'description', content: '渡邊のドラクエ風ポートフォリオ' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -17,7 +17,7 @@ module.exports = {
   },
   modules: [
     ['@nuxtjs/google-analytics', {
-      id: 'UA-90357775-4'
+      id: 'UA-113324501-2'
     }]
  ],
   css:[
