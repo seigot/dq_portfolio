@@ -131,11 +131,11 @@ export default {
           ]
         },
         {
-          name: "せいかのふくろ",
+          name: "せいかぶつ",
           details: [
             {
-              name: "ポートフォリオのソース",
-              link: "https://github.com/iwathi/dq_portfolio"
+              name: "このポートフォリオのソース",
+              link: "https://github.com/OsaWatanabe/dq_portfolio"
             },
             {
               name: "婚活握手会システム開発",
@@ -145,10 +145,6 @@ export default {
               name: "カイゼンスイッチ",
               link:
                 "https://monoist.atmarkit.co.jp/mn/articles/2002/13/news051.html"
-            },
-            {
-              name: "綿棒ケース(menbou)",
-              link: "https://www.thingiverse.com/thing:3104757"
             }
           ]
         }

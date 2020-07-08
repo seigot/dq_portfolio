@@ -31,6 +31,7 @@ export default {
   },
   methods: {
     commandStateChange: function(commandState) {
+      console.log("command:" + commandState);
       if (commandState == 2) {
         this.$store.commit("setStrengthDisplay", true);
       } else if (commandState == 3) {
@@ -38,6 +39,7 @@ export default {
       } else if (commandState == 4) {
         this.$store.commit("setToolDisplay", true);
       } else if (commandState == 5) {
+        this.$store.commit("setCommandState", commandState);
         this.$store.commit("setSpellDisplay", true);
       } else {
         this.$store.commit("setCommentDisplay", true);
