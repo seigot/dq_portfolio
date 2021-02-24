@@ -48,12 +48,12 @@ export default {
             {
               name: "こどものおむかえ",
               link:
-                "https://www.google.co.jp/maps/place/%E3%82%A6%E3%82%A7%E3%83%AA%E3%83%8A%E4%BF%9D%E8%82%B2%E5%9C%92/@34.7548099,135.4133903,17z/data=!4m12!1m6!3m5!1s0x6000f02b967a404f:0x56e2be5b96d1446f!2z44Km44Kn44Oq44OK5L-d6IKy5ZyS!8m2!3d34.7548099!4d135.4155843!3m4!1s0x6000f02b967a404f:0x56e2be5b96d1446f!8m2!3d34.7548099!4d135.4155843?hl=ja"
+                ""
             },
             {
               name: "かいしゃ",
               link:
-                "https://www.google.co.jp/maps/@34.7382538,135.5731084,17.15z?hl=ja"
+                ""
             },
             {
               name: "だいがく",
