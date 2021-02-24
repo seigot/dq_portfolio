@@ -19,7 +19,7 @@ module.exports = {
     ['@nuxtjs/google-analytics', {
       id: 'UA-113324501-2'
     }]
- ],
+  ],
   css:[
   '@/assets/css/dqmenu.css'
   ],
@@ -48,5 +48,8 @@ module.exports = {
         })
       }
     }
+  },
+  generate: {
+    dir: "docs"
   }
 }
