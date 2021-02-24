@@ -84,8 +84,8 @@ export default {
               link: "#"
             },
             {
-              name: "LG 27インチ/4K モニタ",
-              link: "https://www.amazon.co.jp/gp/product/B07NH8S9JL"
+              name: "LG 32インチ/4K モニタ",
+              link: "https://www.lg.com/jp/monitor/lg-32UK550-B"
             },
             {
               name: "iPhone 11 pro",
@@ -121,11 +121,15 @@ export default {
               link: "https://www.switchbot.jp/bot"
             },
             {
-              name: "5歳児",
+              name: "かなでもの 杉無垢材デスク",
+              link: "https://kanademono.design/collections/for-dining/products/tbl-k01-bk"
+            },
+            {
+              name: "6歳児",
               link: "#"
             },
             {
-              name: "2歳児",
+              name: "3歳児",
               link: "#"
             }
           ]
