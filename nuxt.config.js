@@ -4,6 +4,9 @@ module.exports = {
   ** Headers of the page
   */
   mode: 'spa',
+  router: {
+    base: '/dq_portfolio/'
+  },
   head: {
     title: 'わたなへクエスト',
     meta: [
