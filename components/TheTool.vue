@@ -121,7 +121,7 @@ export default {
               link: "https://www.switchbot.jp/bot"
             },
             {
-              name: "かなでもの杉無垢材デスク",
+              name: "かなでもの杉無垢デスク",
               link: "https://kanademono.design/collections/for-dining/products/tbl-k01-bk"
             },
             {
