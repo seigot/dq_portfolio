@@ -2,21 +2,11 @@
 
 > Nuxt.js project
 
-## Build Setup
+DQ風のポートフォリオ
 
-```bash
-# install dependencies
-$ npm install # Or yarn install
+iwathi様作成の[リポジトリ](https://github.com/iwathi/dq_portfolio)をforkして作成しています。
 
-# serve with hot reload at localhost:3000
-$ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
 
-# generate static project
-$ npm run generate
-```
+[ムービー](./demo.mov)
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
