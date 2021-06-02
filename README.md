@@ -1,6 +1,6 @@
 # dq_portfolio
 
-> Nuxt.js project
+> Nuxt.js で作られています
 
 DQ風のポートフォリオ
 
