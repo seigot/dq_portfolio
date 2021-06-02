@@ -7,6 +7,3 @@ DQ風のポートフォリオ
 iwathi様作成の[リポジトリ](https://github.com/iwathi/dq_portfolio)をforkして作成しています。
 
 
-
-[ムービー](./demo.mov)
-
