@@ -30,6 +30,6 @@ jobs:
         with:
           github-token: ${{ github.token }} # this will use the runner's token.
           ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
-          notification-summary: "GitHub Actionsによるデプロイが完了しました"
+          notification-summary: "GitHub Actionsによるデプロイが完了しました &#x1F680"
           notification-color: 17a2b8
           timezone: Asia/Tokyo
