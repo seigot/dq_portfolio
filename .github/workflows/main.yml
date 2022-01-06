@@ -26,7 +26,7 @@ jobs:
           folder: docs
 
       - name: Notify dedicated teams channel
-        uses: jdcargile/ms-teams-notification
+        uses: jdcargile/ms-teams-notification@master
         with:
           github-token: ${{ github.token }} # this will use the runner's token.
           ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
