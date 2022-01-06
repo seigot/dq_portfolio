@@ -18,13 +18,6 @@ jobs:
           text: 'XXX環境へのデプロイを開始しました'
           theme_color: 17a2b8
 
-      - name: Microsoft Teams Deploy Card
-        uses: toko-bifrost/ms-teams-deploy-card@3.1.2
-        with:
-          github-token: ${{ github.token }}
-          webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
-          timezone: Asia/Tokyo
-
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
         with:
