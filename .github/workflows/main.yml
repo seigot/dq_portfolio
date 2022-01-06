@@ -9,6 +9,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Microsoft Teams Deploy Card
+        uses: toko-bifrost/ms-teams-deploy-card@3.1.2
+        with:
+          github-token: ${{ github.token }}
+          webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
+          timezone: Asia/Tokyo
+
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
         with:
@@ -24,12 +31,3 @@ jobs:
         with:
           branch: gh-pages
           folder: docs
-
-      - name: Notify dedicated teams channel
-        uses: jdcargile/ms-teams-notification@master
-        with:
-          github-token: ${{ github.token }} # this will use the runner's token.
-          ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
-          notification-summary: "GitHub Actionsによるデプロイが完了しました &#x1F680"
-          notification-color: 17a2b8
-          timezone: Asia/Tokyo
