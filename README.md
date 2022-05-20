@@ -3,6 +3,7 @@
 > Nuxt.js で作られています
 
 DQ風のポートフォリオです。
+https://osawatanabe.github.io/dq_portfolio/
 
 マウスで操作してください。
 
